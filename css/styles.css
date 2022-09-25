@@ -1,26 +1,26 @@
-:root {
-  /* Fonts */
+/* :root {
+  
 
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
 
-  /* Text colors */
+  
 
   --main-txt-cl: #212121;
   --secondary-txt-cl: #757575;
   --link-txt-cl: #2196f3;
   --white-txt-cl: #ffffff;
 
-  /* Backgroung colors */
+ 
 
   --main-bg-cl: #ffffff;
   --hero-bg-cl: #2f303a;
   --secondary-bg-cl: #f5f4fa;
-}
+} */
 
 /* Others */
 
-.visually-hidden {
+/* .visually-hidden {
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -31,16 +31,15 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
-.page {
+/* .page {
   font-family: var(--main-font);
   background-color: var(--main-bg-cl);
   color: var(--main-txt-cl);
-}
+} */
 
-/* Reset */
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -48,21 +47,18 @@ h5,
 h6,
 p {
   margin-top: 0;
-}
+} */
 
-img {
+/* img {
   display: block;
   max-width: 100%;
   height: auto;
-}
+} */
 
-.link {
+/* .link {
   text-decoration: none;
 }
 
-nav {
-  display: flex;
-}
 
 .list {
   list-style: none;
@@ -76,11 +72,11 @@ nav {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 /* header */
 
-.header {
+/* .header {
   border: 1px solid #ececec;
   border-top: 0;
   border-left: 0;
@@ -106,6 +102,7 @@ nav {
   color: var(--link-txt-cl);
 }
 .nav {
+  display: flex;
   margin-right: auto;
 }
 
@@ -118,12 +115,6 @@ nav {
 .nav__list .nav__link.current {
   color: var(--link-txt-cl);
 }
-
-/* .header-connect__icon {
-  display: flex;
-  width: 270px;
-  height: 120px;
-} */
 
 .nav__link,
 .header-connect__link {
@@ -173,11 +164,11 @@ nav {
 
 .link-to {
   color: var(--secondary-txt-cl);
-}
+} */
 
 /* hero  */
 
-.section-hero {
+/* .section-hero {
   color: var(--white-txt-cl);
   margin: auto;
   padding-top: 200px;
@@ -231,11 +222,11 @@ nav {
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #188ce8;
-}
+} */
 
 /* features  */
 
-.section-features {
+/* .section-features {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -244,10 +235,6 @@ nav {
   display: flex;
   gap: 30px;
 }
-
-/* .features-list__item {
-  flex-basis: calc((100% - 30px * 3) / 4);
-} */
 
 .features__icon {
   display: flex;
@@ -273,11 +260,11 @@ nav {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   margin-bottom: 0;
-}
+} */
 
 /* work  */
 
-.section-work {
+/* .section-work {
   padding-bottom: 94px;
 }
 
@@ -319,11 +306,11 @@ nav {
   text-transform: uppercase;
   color: var(--white-txt-cl);
   margin: 0;
-}
+} */
 
 /* team  */
 
-.section-team {
+/* .section-team {
   background-color: var(--secondary-bg-cl);
   padding-top: 94px;
   padding-bottom: 94px;
@@ -403,11 +390,11 @@ nav {
 .team-socials__icon:hover,
 .team-socials__icon:focus {
   fill: var(--main-bg-cl);
-}
+} */
 
 /* customers  */
 
-.section-customers {
+/* .section-customers {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -448,7 +435,7 @@ nav {
 .customers__link:focus {
   fill: var(--link-txt-cl);
   border: 1px solid #2196f3;
-}
+} */
 
 /*Footer*/
 
@@ -560,7 +547,7 @@ nav {
   fill: var(--main-bg-cl);
 }
 
-.form-footer-name {
+.footer-form__name {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -570,15 +557,15 @@ nav {
   margin-bottom: 20px;
 }
 
-.sign-form {
+.footer-form__sign {
   display: flex;
 }
 
-.footer-mail {
+.footer-form__label {
   margin-right: 12px;
 }
 
-.mail {
+.footer-form__mail {
   width: 358px;
   padding: 15px 16px;
   background-color: inherit;
@@ -590,17 +577,17 @@ nav {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mail:focus {
+.footer-form__mail:focus {
   border-color: var(--link-txt-cl);
 }
 
-.mail::placeholder {
+.footer-form__mail::placeholder {
   color: rgba(255, 255, 255, 0.6);
   line-height: calc(20 / 16);
   letter-spacing: 0.03em;
 }
 
-.sign-btn {
+.footer-btn {
   display: flex;
   align-items: center;
   text-align: center;
@@ -617,12 +604,12 @@ nav {
   color: var(--white-txt-cl);
 }
 
-.sign-btn:focus,
-.sign-btn:hover {
+.footer-btn:focus,
+.footer-btn:hover {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.send {
+.footer-btn__send {
   margin-left: 10px;
   fill: var(--main-bg-cl);
 }

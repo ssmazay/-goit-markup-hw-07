@@ -1,0 +1,17 @@
+// utils
+
+@import "./utils/container";
+@import "./utils/reset";
+@import "./utils/vars";
+@import "./utils/visually-hidden";
+@import "./utils/mixin";
+
+// components
+
+@import "./components/header";
+@import "./components/hero";
+@import "./components/btn";
+@import "./components/features";
+@import "./components/work";
+@import "./components/team";
+@import "./components/customers";
