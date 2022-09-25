@@ -510,11 +510,13 @@ nav {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-icon-div {
+/* footer-socials */
+
+.footer-socials {
   margin-right: auto;
 }
 
-.footer-icon-name {
+.footer-socials__name {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -524,7 +526,7 @@ nav {
   margin-bottom: 20px;
 }
 
-.footer-icon-list {
+.footer-socials__list {
   display: flex;
   justify-content: center;
   gap: 10px;
@@ -532,7 +534,12 @@ nav {
   margin: 0;
 }
 
-.footer-link-icon {
+.footer-socials__item {
+  width: 44px;
+  height: 44px;
+}
+
+.footer-socials__link-icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -544,18 +551,13 @@ nav {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-link-icon:hover,
-.footer-link-icon:focus {
+.footer-socials__link-icon:hover,
+.footer-socials__link-icon:focus {
   background-color: var(--link-txt-cl);
 }
 
-.footer-icon {
+.footer-socials__icon {
   fill: var(--main-bg-cl);
-}
-
-.footer-icon-item {
-  width: 44px;
-  height: 44px;
 }
 
 .form-footer-name {
