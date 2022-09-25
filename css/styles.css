@@ -119,7 +119,7 @@ nav {
   color: var(--link-txt-cl);
 }
 
-/* .header-icon {
+/* .header-connect__icon {
   display: flex;
   width: 270px;
   height: 120px;
@@ -233,12 +233,12 @@ nav {
   background-color: #188ce8;
 }
 
+/* features  */
+
 .section-features {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
-/* features  */
 
 .features-list {
   display: flex;
