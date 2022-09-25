@@ -240,7 +240,7 @@ nav {
   padding-bottom: 94px;
 }
 
-.features-list {
+.features__list {
   display: flex;
   gap: 30px;
 }
@@ -249,7 +249,7 @@ nav {
   flex-basis: calc((100% - 30px * 3) / 4);
 } */
 
-.features-list__icon {
+.features__icon {
   display: flex;
   width: 270px;
   height: 120px;
@@ -259,14 +259,14 @@ nav {
   margin-bottom: 30px;
 }
 
-.features-list__subtitles {
+.features__subtitles {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.features-list__text {
+.features__text {
   color: var(--secondary-txt-cl);
   font-weight: 400;
   font-size: 14px;
