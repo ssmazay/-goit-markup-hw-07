@@ -281,7 +281,7 @@ nav {
   padding-bottom: 94px;
 }
 
-.work-title {
+.work__title {
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
@@ -289,16 +289,16 @@ nav {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-.work-list {
+.work__list {
   display: flex;
   gap: 30px;
 }
 
-.work-item {
+.work__item {
   position: relative;
 }
 
-.work-name {
+.work__name {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -310,7 +310,7 @@ nav {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.work-name-heading {
+.work__name-heading {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
