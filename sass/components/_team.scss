@@ -1,9 +1,7 @@
 .section-team {
-  @include section($pt 94px, $pb 94px, $bgc var(--secondary-bg-cl))
-    //   background-color: var(--secondary-bg-cl);
-    //   padding-top: 94px;
-    //   padding-bottom: 94px;
-;
+  background-color: var(--secondary-bg-cl);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team__title {

@@ -1,7 +1,10 @@
+// base
+
+@import "./base/container";
+@import "./base/reset";
+
 // utils
 
-@import "./utils/container";
-@import "./utils/reset";
 @import "./utils/vars";
 @import "./utils/visually-hidden";
 @import "./utils/mixin";
@@ -16,3 +19,6 @@
 @import "./components/work";
 @import "./components/team";
 @import "./components/customers";
+@import "./components/portfolio";
+@import "./components/modal";
+@import "./components/form";

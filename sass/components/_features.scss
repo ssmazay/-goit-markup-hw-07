@@ -1,9 +1,13 @@
 .section-features {
-  @include section($pt 94px, $pb 94px, $bgc null);
+  // @include section($pt 94px, $pb 94px, $bgc);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .features__list {
-  @include list($jc: null, $ai: null, $d: flex, $gap: 30px);
+  // @include list($jc: null, $ai: null, $d: flex, $gap: 30px);
+  display: flex;
+  gap: 30px;
 }
 
 .features__icon {
